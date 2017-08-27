@@ -6,7 +6,7 @@
 
 #### 1、[Bidirectional LSTMs - CRFs Networks for Bangla POS Tagging](./papper/1/1.md)
 
-
+#### 2、[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF ](./papper/2/2.md)
 
 
 

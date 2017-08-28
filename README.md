@@ -8,7 +8,7 @@
 
 #### 2、[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF ](./papper/2/2.md)
 
-
+#### 3、[Attending to Characters in Neural Sequence Labeling Models](./papper/3/3.md)
 
 ### 其他
 

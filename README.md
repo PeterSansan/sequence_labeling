@@ -10,6 +10,8 @@
 
 #### 3、[Attending to Characters in Neural Sequence Labeling Models](./papper/3/3.md)
 
+#### 4、[A Long Dependency Aware Deep Architecture for Joint Chinese Word Segmentation and POS Tag](./papper/4/4.md)
+
 ### 其他
 
 - RNN在语音识别上的运用- SPEECH RECOGNITION WITH DEEP RECURRENT NEURAL NETWORKS

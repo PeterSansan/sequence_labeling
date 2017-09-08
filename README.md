@@ -1,6 +1,6 @@
 # sequence_labeling(序列标注问题研究记录)
 
-
+## 1、文献
 
 ####  0、[Character-based Joint Segmentation and POS Tagging for Chinese using Bidirectional RNN-CRF](./papper/0/0.md)
 
@@ -11,6 +11,12 @@
 #### 3、[Attending to Characters in Neural Sequence Labeling Models](./papper/3/3.md)
 
 #### 4、[A Long Dependency Aware Deep Architecture for Joint Chinese Word Segmentation and POS Tag](./papper/4/4.md)
+
+## 2、代码
+
+#### 1、[中文分词Keras-v1](codes/cws/cws_v1.ipynb)
+
+
 
 ### 其他
 

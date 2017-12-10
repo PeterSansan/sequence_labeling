@@ -18,6 +18,9 @@
 
 #### 2、[中文分词BiLSTM完整版](./codes/cws/1_lstm_cws_keras/lstm_cws_jp3.ipynb)
 
+## 3、实验记录
+
+#### 1、[ex1...](./ex/REAME.md)
 
 
 ### 其他

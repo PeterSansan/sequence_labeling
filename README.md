@@ -16,7 +16,7 @@
 
 #### 1、[中文分词基础版Keras-v1](./codes/cws/cws_v1.ipynb)
 
-### 2、[中文分词BiLSTM完整版](./codes/cws/1_lstm_cws_keras/lstm_cws_jp3.ipynb)
+#### 2、[中文分词BiLSTM完整版](./codes/cws/1_lstm_cws_keras/lstm_cws_jp3.ipynb)
 
 
 

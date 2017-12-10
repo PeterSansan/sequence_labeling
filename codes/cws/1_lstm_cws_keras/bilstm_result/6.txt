@@ -1,0 +1,92 @@
+2017-12-06 16:03:44.654326: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-06 16:03:44.731194: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-06 16:03:44.731495: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 7.92GiB freeMemory: 7.25GiB
+2017-12-06 16:03:44.731509: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+训练集句子数： 86918
+测试集句子数： 3985
+过滤后剩余的训练集句子数 =  85620
+过滤后剩余的测试集句子数 =  3891
+汉字个数： 5111
+{'e': 4, 'm': 3, 'b': 2, 's': 1}
+训练集句子数 =  77058
+验证集句子数 =  8562
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 128)               0         
+_________________________________________________________________
+embedding_1 (Embedding)      (None, 128, 128)          654208    
+_________________________________________________________________
+bidirectional_1 (Bidirection (None, 128, 64)           98816     
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 128, 64)           0         
+_________________________________________________________________
+bidirectional_2 (Bidirection (None, 128, 32)           24832     
+_________________________________________________________________
+dense_1 (Dense)              (None, 128, 5)            165       
+=================================================================
+Total params: 778,021
+Trainable params: 778,021
+Non-trainable params: 0
+_________________________________________________________________
+Train on 77058 samples, validate on 8562 samples
+Epoch 1/150
+ - 1171s - loss: 0.1756 - acc: 0.9312 - val_loss: 0.1043 - val_acc: 0.9627
+Epoch 2/150
+ - 1171s - loss: 0.0974 - acc: 0.9655 - val_loss: 0.0836 - val_acc: 0.9706
+Epoch 3/150
+ - 1167s - loss: 0.0802 - acc: 0.9717 - val_loss: 0.0719 - val_acc: 0.9748
+Epoch 4/150
+ - 1166s - loss: 0.0697 - acc: 0.9756 - val_loss: 0.0659 - val_acc: 0.9769
+Epoch 5/150
+ - 1166s - loss: 0.0623 - acc: 0.9782 - val_loss: 0.0606 - val_acc: 0.9791
+Epoch 6/150
+ - 1166s - loss: 0.0567 - acc: 0.9802 - val_loss: 0.0575 - val_acc: 0.9803
+Epoch 7/150
+ - 1165s - loss: 0.0522 - acc: 0.9818 - val_loss: 0.0547 - val_acc: 0.9813
+Epoch 8/150
+ - 1165s - loss: 0.0483 - acc: 0.9832 - val_loss: 0.0533 - val_acc: 0.9821
+Epoch 9/150
+ - 1166s - loss: 0.0448 - acc: 0.9845 - val_loss: 0.0523 - val_acc: 0.9828
+Epoch 10/150
+ - 1166s - loss: 0.0417 - acc: 0.9856 - val_loss: 0.0509 - val_acc: 0.9835
+Epoch 11/150
+ - 1167s - loss: 0.0390 - acc: 0.9866 - val_loss: 0.0511 - val_acc: 0.9838
+Epoch 12/150
+ - 1122s - loss: 0.0367 - acc: 0.9874 - val_loss: 0.0494 - val_acc: 0.9846
+Epoch 13/150
+ - 1130s - loss: 0.0343 - acc: 0.9883 - val_loss: 0.0489 - val_acc: 0.9845
+Epoch 14/150
+ - 1130s - loss: 0.0322 - acc: 0.9890 - val_loss: 0.0496 - val_acc: 0.9846
+Epoch 15/150
+ - 1131s - loss: 0.0304 - acc: 0.9897 - val_loss: 0.0484 - val_acc: 0.9853
+Epoch 16/150
+ - 1131s - loss: 0.0286 - acc: 0.9903 - val_loss: 0.0482 - val_acc: 0.9854
+Epoch 17/150
+ - 1131s - loss: 0.0273 - acc: 0.9908 - val_loss: 0.0491 - val_acc: 0.9856
+Epoch 18/150
+ - 1131s - loss: 0.0258 - acc: 0.9913 - val_loss: 0.0480 - val_acc: 0.9857
+Epoch 19/150
+ - 1131s - loss: 0.0246 - acc: 0.9918 - val_loss: 0.0487 - val_acc: 0.9860
+Epoch 20/150
+ - 1131s - loss: 0.0234 - acc: 0.9922 - val_loss: 0.0499 - val_acc: 0.9860
+Epoch 21/150
+ - 1114s - loss: 0.0223 - acc: 0.9925 - val_loss: 0.0504 - val_acc: 0.9861
+Epoch 22/150
+ - 1109s - loss: 0.0213 - acc: 0.9929 - val_loss: 0.0500 - val_acc: 0.9862
+Epoch 23/150
+ - 1109s - loss: 0.0205 - acc: 0.9932 - val_loss: 0.0509 - val_acc: 0.9864
+Epoch 24/150
+ - 1107s - loss: 0.0197 - acc: 0.9934 - val_loss: 0.0519 - val_acc: 0.9859
+Epoch 25/150
+ - 1107s - loss: 0.0190 - acc: 0.9937 - val_loss: 0.0508 - val_acc: 0.9866
+Epoch 26/150
+ - 1108s - loss: 0.0182 - acc: 0.9940 - val_loss: 0.0521 - val_acc: 0.9864
+Using TensorFlow backend.
+Epoch 00026: early stopping
+Test score: 0.165572753147
+Test accuracy: 0.97587581929
+0.9219534319595982 0.920532025319032 0.9233792350173025
